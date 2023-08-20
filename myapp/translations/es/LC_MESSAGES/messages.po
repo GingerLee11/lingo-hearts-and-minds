@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-08-19 16:18-0400\n"
-"PO-Revision-Date: 2023-08-19 16:18-0400\n"
+"POT-Creation-Date: 2023-08-19 19:40-0400\n"
+"PO-Revision-Date: 2023-08-19 19:41-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
 "Language-Team: es <LL@li.org>\n"
@@ -18,11 +18,188 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
-#: myapp/templates/index.html:9
-msgid "Welcome to the Profile Page!"
-msgstr "Bienvenido a la Pagina del Profil"
+#: myapp/templates/base.html:15 myapp/templates/home.html:5
+msgid "Lingo Hearts & Minds"
+msgstr ""
 
-#: myapp/templates/index.html:10
-msgid "This is a bilingual website."
-msgstr "Este sitio de web es bilingüe"
+#: myapp/templates/base.html:22
+msgid "Home"
+msgstr ""
+
+#: myapp/templates/base.html:25
+msgid "About Me"
+msgstr ""
+
+#: myapp/templates/home.html:9
+msgid "OUR MISSION"
+msgstr ""
+
+#: myapp/templates/home.html:11
+msgid ""
+"To provide scholastic, spiritual, and social support to equip and empower"
+" our underserved neighbors."
+msgstr ""
+
+#: myapp/templates/home.html:14
+msgid "OUR VISION"
+msgstr ""
+
+#: myapp/templates/home.html:16
+msgid ""
+"The transformation of lives and strengthening of communities is made "
+"possible through the provision of holistic programs to the families we "
+"serve."
+msgstr ""
+
+#: myapp/templates/home.html:18
+msgid "Podcast Coming Soon! - Spring 2024"
+msgstr ""
+
+#: myapp/templates/home.html:26
+msgid "Charlemos Charlotte: Language Exchange Program"
+msgstr ""
+
+#: myapp/templates/home.html:27
+msgid "Ages 18+"
+msgstr ""
+
+#: myapp/templates/home.html:29 myapp/templates/home.html:48
+#: myapp/templates/home.html:79 myapp/templates/home.html:104
+#: myapp/templates/home.html:124
+msgid "Read More"
+msgstr ""
+
+#: myapp/templates/home.html:34
+msgid ""
+"Charlemos Charlotte is an immersive bilingual experience where "
+"participants practice Spanish through hands-on activities and engaging "
+"conversations. Similarly, native speakers learn from them! All levels are"
+" welcome. For questions or assistance with registration, call "
+"704-416-6400. Find Charlemos Charlotte events "
+msgstr "Charlemos Charlotte es un programa de intercambio de idiomas con una experiencia bilingüe inmersiva donde los participantes practican inglés a través de actividades prácticas y conversaciones interesantes. Del mismo modo, ¡los hablantes nativos aprenden de ellos! Todos los niveles son bienvenidos."
+"Para preguntas o asistencia con la registración, llame al 704-416-6400."
+"Encuentra los eventos de Charlemos Charlotte"
+"
+
+#: myapp/templates/home.html:35 myapp/templates/home.html:64
+msgid "here"
+msgstr "aquí"
+
+#: myapp/templates/home.html:45
+msgid "Living Archives"
+msgstr ""
+
+#: myapp/templates/home.html:46
+msgid "All ages"
+msgstr ""
+
+#: myapp/templates/home.html:54
+msgid ""
+"The Living Archives is a three-year initiative (we're coming up on year "
+"three) to gather, preserve and share local histories—stories, creative "
+"pieces, written work, visual imagery, and memories—about the COVID-19 "
+"pandemic and its impact on Black, Hispanic, Asian, and Indigenous "
+"communities in Mecklenburg County whose stories are often untold in "
+"history. The project is a collaboration between the Charlotte Mecklenburg"
+" Library, Johnson C. Smith University, the Center for Documentary Studies"
+" at Duke University, and the Levine Museum of the New South. We plan to "
+"archive the stories, creative pieces, and other artifacts on our website "
+"and showcase them throughout museums and other sites in Charlotte."
+msgstr "The Living Archives es una iniciativa de tres años (estamos llegando al tercer año) para recopilar, preservar y compartir historias locales (historias, piezas creativas, trabajos escritos, imágenes visuales y recuerdos) sobre la pandemia de COVID-19 y su impacto en las comunidades negras, hispanas, asiáticas e indígenas en el condado de Mecklenburg, cuyas historias a menudo no se cuentan en la historia. El proyecto es una colaboración entre la Biblioteca Charlotte Mecklenburg, la Universidad Johnson C. Smith, el Centro de Estudios Documentales de la Universidad de Duke y el Museo Levine del Nuevo Sur. Planeamos archivar las historias, piezas creativas y otros artefactos en nuestro sitio web y exhibirlos en museos y otros sitios en Charlotte."
+
+#: myapp/templates/home.html:57
+msgid ""
+"Email Sarah Ghereghel at sgherghel@cmlibrary.org or call 704-416-0452 if "
+"you'd like to interview for this project in English."
+msgstr "Envía un correo electrónico a Ana Robles a arobles@cmlibrary.org o llama al 704-416-6400 si estás interesado en hacer una entrevista en español para este proyecto."
+
+#: myapp/templates/home.html:60
+msgid ""
+"Email Ana Robles at arobles@cmlibrary.org or call 704-416-6400 to "
+"interview for this project in Spanish."
+msgstr "Envía un correo electrónico a Sarah Ghereghel a sgherghel@cmlibrary.org o llama al 704-416-0452 si deseas hacer una entrevista en inglés para este proyecto."
+
+#: myapp/templates/home.html:63
+msgid "Explore more of The Living Archives"
+msgstr "Explore más de The Living Archives"
+
+#: myapp/templates/home.html:76
+msgid "Conexiones que Cuentan"
+msgstr ""
+
+#: myapp/templates/home.html:77
+msgid "0-5 years old"
+msgstr ""
+
+#: myapp/templates/home.html:85
+msgid ""
+"This program will be provided in <strong>Spanish</strong> by South "
+"Boulevard library staff. Engage your child with stories, songs, and "
+"activities in Spanish that support early literacy skill development and "
+"expose your child to the language and culture. \n"
+"                            This program is intended for both Spanish-"
+"speaking families and those who want to expose their children to a second"
+" language. "
+msgstr ""
+
+#: myapp/templates/home.html:89
+msgid ""
+"This program will take place indoors at the South Boulevard library. Face"
+" coverings are strongly encouraged for both participants and staff. \n"
+"                            Indoor programs will be operating at a "
+"reduced attendance capacity and will include social distancing based on "
+"the library space."
+msgstr ""
+
+#: myapp/templates/home.html:101
+msgid "Southend Spanish"
+msgstr ""
+
+#: myapp/templates/home.html:102
+msgid "18+"
+msgstr ""
+
+#: myapp/templates/home.html:109
+msgid ""
+"When learning a new language one of the most important things is exposure"
+" and practice. \n"
+"                        We are hosting a meetup at a Brewery in South End"
+" once a month (usually the third or fourth Thursday of the month) at 7:30"
+" pm where you can come practice your Spanish in a relaxed environment. \n"
+"                        Come have a drink and enjoy the atmosphere! This "
+"is for all levels of Spanish speakers ranging from beginner to fluent "
+"native speakers."
+msgstr ""
+
+#: myapp/templates/home.html:121
+msgid "LHCC"
+msgstr ""
+
+#: myapp/templates/home.html:122
+msgid "For the entire family"
+msgstr ""
+
+#: myapp/templates/home.html:130
+msgid ""
+"Since July 2012, <strong>Learning Help Centers of Charlotte</strong> has "
+"provided scholastic, spiritual and social support to families in and "
+"around the South Boulevard corridor."
+msgstr ""
+
+#: myapp/templates/home.html:133
+msgid ""
+"LHCC utilizes volunteers and community partners in serving the whole "
+"family through weekly tutoring, programming for the parents, summer camps"
+" for children, and family events for health and wellness."
+msgstr ""
+
+#: myapp/templates/home.html:136
+msgid ""
+"We are committed to supporting underserved families by offering quality "
+"programs that have transformed lives and strengthened community, as well "
+"as enhanced relationships with volunteers. \n"
+"                            Our goal is to mentor and encourage the next "
+"generation of children to become role models and leaders in their homes "
+"and community."
+msgstr ""
 

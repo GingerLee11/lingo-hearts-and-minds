@@ -1,0 +1,22 @@
+/my_flask_app
+    /static
+        /css
+            styles.css
+        /images
+            ana.jpg
+        /js
+            (any JavaScript files)
+    /myapp  
+        /templates
+            base.html
+            about_me.html
+            home.html
+        /translations
+            messages.po
+            messages.mo
+        __init__.py
+        routes.py
+    babel.cfg
+    config.py
+    run.py
+    

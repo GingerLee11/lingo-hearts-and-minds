@@ -2,7 +2,42 @@
 
 {% block content %}
 <div class="container mt-5">
-    <h2>About Me</h2>
-    <!-- Add the picture and introduction here -->
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <h2 class="mb-4">About Me</h2>
+            <div class="image-container mb-4 position-relative">
+                <img src="{{ url_for('static', filename='images/ana.jpg') }}" alt="Professional Picture of Ana" class="img-fluid rounded-circle">
+                <div class="centered-text position-absolute top-50 start-50 translate-middle">
+                    <h4 class="text-white">Hi, I'm Ana</h4>
+                </div>
+            </div>
+
+            <!-- Bio goes here -->
+            <p class="mb-3">
+                I was born in Cuautla, Morelos, Mexico in 1992 and came to the United States when I was 6 years old.
+            </p>
+            <p class="mb-3">
+                My work has revolved around effectively building integration and a more equitable playing field for the Latino community through educational programming, community engagement, and supportive resources.
+            </p>
+            <p class="mb-3">
+                I initially started working within the Hispanic community through United 4 the Dream. Here, I advocated for equal opportunities for undocumented immigrants at local, state, and national levels, informed the public of state and national policies regarding immigration, and created welcoming spaces for immigrants to gather.
+            </p>
+            <p class="mb-3">
+                I continued similar work when I volunteered at Charlotte Mecklenburg Library in 2012 and eventually as an employee. Within this organization, I've promoted learning, social connection, and cultural awareness through various programs such as Spanish storytimes, equal access health-care groups, and immersive language exchange programs where (Spanish and English speaking) community members learn not just the language, but also about each other's stories and come to understand each other more.
+            </p>
+            <p class="mb-3">
+                Along with this, I serve on teams and projects that support progression in the Latino community such as the Bi-lingual Premium Implementation Team where I helped build the Library's bilingual premium benefits and the Living Archives, a grant funded project by the Duke Endowment to expand, gather, archive, and share COVID-19 stories and its impact on minorities, including the Latino community whose voices are many times lost in documented history.
+            </p>
+            <p class="mb-3">
+                I am also the Parent Outreach Team Lead for Learning Help Centers of Charlotte (LHCC) where I develop partnerships and holistic programs that aid Spanish-speaking parents to be more integrated in their community, more connected to organizations who can serve them in their language, and aide them to become better equipped as leaders inside and outside their households.
+            </p>
+            <p class="mb-3">
+                Last year, I was awarded the Latino Advocate Diamante Award, a state recognized award which acknowledges significant contributions made by individuals who improve the quality of life of Hispanic/Latinos in North Carolina.
+            </p>
+            <p>
+                Being an immigrant myself, I understand the community and find fulfillment in building trusting relationships, uplifting others, and expanding my bounds of knowledge, especially within the areas of mental health and overall wellness.
+            </p>
+        </div>
+    </div>
 </div>
 {% endblock %}

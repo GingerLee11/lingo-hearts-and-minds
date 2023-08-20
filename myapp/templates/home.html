@@ -2,7 +2,145 @@
 
 {% block content %}
 <div class="container mt-5">
-    <h2>Our Activities</h2>
-    <!-- Add the Bootstrap cards for activities here -->
+    <h1 class="text-center mb-5 display-4">{{ _('Lingo Hearts & Minds') }}</h1>
+    
+    <!-- Mission and Vision -->
+    <div class="mt-5 mb-5">
+        <p class="font-weight-bold mt-4"><strong>{{ _("Podcast Coming Soon! - Spring 2024") }}</strong></p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Charlemos Charlotte Card -->
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h5>{{ _('Charlemos Charlotte: Language Exchange Program') }}</h5>
+                    <small>{{ _('Ages 18+') }}</small>
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#charlemos-content">
+                        {{ _('Read More') }}
+                    </button>
+                </div>
+                <div id="charlemos-content" class="collapse">
+                    <div class="card-body">
+                        {{ _('Charlemos Charlotte is an immersive bilingual experience where participants practice Spanish through hands-on activities and engaging conversations. Similarly, native speakers learn from them! All levels are welcome. For questions or assistance with registration, call 704-416-6400. Find Charlemos Charlotte events ') }}
+                        <a href="https://cmlibrary.bibliocommons.com/v2/events?q=Charlemos%20Charlotte" target="_blank" rel="noopener noreferrer">{{ _('here') }}</a>.
+                    </div>
+                </div>
+            </div>                                    
+        </div>
+
+        <!-- Living Archives Card -->
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h5>{{ _('Living Archives') }}</h5>
+                    <small>{{ _('All ages') }}</small>
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#archives-content">
+                        {{ _('Read More') }}
+                    </button>
+                </div>
+                <div id="archives-content" class="collapse">
+                    <div class="card-body">
+                        <p>
+                            {{ _("The Living Archives is a three-year initiative (we're coming up on year three) to gather, preserve and share local histories—stories, creative pieces, written work, visual imagery, and memories—about the COVID-19 pandemic and its impact on Black, Hispanic, Asian, and Indigenous communities in Mecklenburg County whose stories are often untold in history. The project is a collaboration between the Charlotte Mecklenburg Library, Johnson C. Smith University, the Center for Documentary Studies at Duke University, and the Levine Museum of the New South. We plan to archive the stories, creative pieces, and other artifacts on our website and showcase them throughout museums and other sites in Charlotte.") }}
+                        </p>
+                        <p>
+                            {{ _("Email Sarah Ghereghel at sgherghel@cmlibrary.org or call 704-416-0452 if you'd like to interview for this project in English.") }}
+                        </p>
+                        <p>
+                            {{ _("Email Ana Robles at arobles@cmlibrary.org or call 704-416-6400 to interview for this project in Spanish.") }}
+                        </p>
+                        <p>
+                            {{ _("Explore more of The Living Archives") }}
+                            <a href="https://linktr.ee/livingarchivesclt" target="_blank" rel="noopener noreferrer">{{ _('here') }}</a>.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Conexiones que Cuentan Card -->
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h5>{{ _('Conexiones que Cuentan') }}</h5>
+                    <small>{{ _('0-5 years old') }}</small>
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#conexiones-content">
+                        {{ _('Read More') }}
+                    </button>
+                </div>
+                <div id="conexiones-content" class="collapse">
+                    <div class="card-body">
+                        <p>
+                            {{ _("This program will be provided in <strong>Spanish</strong> by South Boulevard library staff. Engage your child with stories, songs, and activities in Spanish that support early literacy skill development and expose your child to the language and culture. 
+                            This program is intended for both Spanish-speaking families and those who want to expose their children to a second language. ") }}
+                        </p>
+                        <p>
+                            {{ _("This program will take place indoors at the South Boulevard library. Face coverings are strongly encouraged for both participants and staff. 
+                            Indoor programs will be operating at a reduced attendance capacity and will include social distancing based on the library space.") }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Southend Spanish Card -->
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h5>{{ _('Southend Spanish') }}</h5>
+                    <small>{{ _('18+') }}</small>
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#southend-content">
+                        {{ _('Read More') }}
+                    </button>
+                </div>
+                <div id="southend-content" class="collapse">
+                    <div class="card-body">
+                        {{ _("When learning a new language one of the most important things is exposure and practice. 
+                        We are hosting a meetup at a Brewery in South End once a month (usually the third or fourth Thursday of the month) at 7:30 pm where you can come practice your Spanish in a relaxed environment. 
+                        Come have a drink and enjoy the atmosphere! This is for all levels of Spanish speakers ranging from beginner to fluent native speakers.")|safe }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LHCC Card -->
+        <div class="col">
+            <div class="card shadow mb-5">
+                <div class="card-header">
+                    <h5>{{ _('LHCC') }}</h5>
+                    <small>{{ _('For the entire family') }}</small>
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#lhcc-content">
+                        {{ _('Read More') }}
+                    </button>
+                </div>
+                <div id="lhcc-content" class="collapse">
+                    <div class="card-body">
+                        <p>
+                            {{ _("Since July 2012, <strong>Learning Help Centers of Charlotte</strong> has provided scholastic, spiritual and social support to families in and around the South Boulevard corridor.")|safe }}
+                        </p>
+                        <p>
+                            {{ _("LHCC utilizes volunteers and community partners in serving the whole family through weekly tutoring, programming for the parents, summer camps for children, and family events for health and wellness.") }}
+                        </p>
+                        <p>
+                            {{ _("We are committed to supporting underserved families by offering quality programs that have transformed lives and strengthened community, as well as enhanced relationships with volunteers. 
+                            Our goal is to mentor and encourage the next generation of children to become role models and leaders in their homes and community.") }}
+                        </p>
+                        <h3 class="mb-3">{{ _('OUR MISSION') }}</h3>
+                        <p class="lead">
+                            <em>{{ _("To provide scholastic, spiritual, and social support to equip and empower our underserved neighbors.") }}</em>
+                        </p>
+
+                        <h3 class="mb-3 mt-4">{{ _('OUR VISION') }}</h3>
+                        <p class="lead">
+                            <em>{{ _("The transformation of lives and strengthening of communities is made possible through the provision of holistic programs to the families we serve.") }}</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 {% endblock %}
