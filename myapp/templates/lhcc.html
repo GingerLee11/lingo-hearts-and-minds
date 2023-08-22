@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <!-- Title with orange color -->
+    <h1 class="text-center mb-5" style="color: orange;">{{ _('Learning Help Centers of Charlotte (LHCC)') }}</h1>
+    
+    <!-- Main Image with reduced size -->
+    <div class="text-center mb-5">
+        <img src="{{ url_for('static', filename='images/LHCC.png') }}" alt="Learning Help Centers of Charlotte (LHCC) logo" class="img-fluid rounded" style="max-width: 70%;">
+    </div>
+
+    <!-- Main Content -->
+    <div class="mb-5">
+        <p>
+            {{ _('Since July 2012, ') }}
+            <a href="https://www.lhcclt.org/" target="_blank" rel="noopener noreferrer">{{ _('Learning Help Centers of Charlotte') }}</a>
+            {{ _(' has provided scholastic, spiritual and social support to families in and around the South Boulevard corridor. ')|safe }}
+        </p>
+        <p>
+            {{ _('The organization utilizes volunteers and community partners in serving the whole family through weekly tutoring, programming for the parents, summer camps for children, and family events for health, wellness, and other supportive resources. LHCC is committed to supporting families through quality programs that build individuals, develop relationships, and aid many to integrate into what many times is a new culture and community. ') }}
+        </p>
+        <p>
+            {{ _('For more information regarding volunteers, student programs, or partnerships serving children and teens, reach out to Meghan Miller at meghan@lhcclt.org.') }}
+        </p>
+        <p>
+            {{ _('For more information regarding adult programs or partnerships serving adults, Spanish-speakers, or other non-profit services, reach out to Ana Robles at ana@lhcclt.org. ') }}
+        </p>
+        <p>
+            {{ _('Location: St Andrews United Methodist Church, 1901 Archdale Dr a, Charlotte, NC 28210') }}
+        </p>
+        <hr>
+        <h4>ESPAÑOL</h4>
+        <p>
+            Desde julio de 2012, <a href="https://www.lhcclt.org/" target="_blank" rel="noopener noreferrer">Learning Help Centers of Charlotte</a> ha brindado apoyo escolar, espiritual y social a familias en el corredor de South Boulevard y sus alrededores.
+        </p>
+        <p>
+            La organización utiliza voluntarios y socios comunitarios para servir a toda la familia a través de tutorías semanales, programas para padres, campamentos de verano para niños y eventos familiares de salud, bienestar y otros temas de recursos de apoyo. LHCC se compromete a apoyar a las familias a través de programas de calidad que construyen individuos, desarrollan relaciones y ayudan a muchos a integrarse en lo que muchas veces es una nueva cultura y comunidad.
+        </p>
+        <p>
+            Para obtener más información sobre voluntarios, programas estudiantiles o organizaciones como asociados que atienden a niños y adolescentes, comuníquese con Meghan Miller en meghan@lhcclt.org.
+        </p>
+        <p>
+            Para obtener más información sobre programas para adultos o asociaciones que atienden a adultos, hispanohablantes u otros servicios sin fines de lucro, comuníquese con Ana Robles en ana@lhcclt.org.
+        </p>
+        <p>
+            Ubicación: St Andrews United Methodist Church, 1901 Archdale Dr a, Charlotte, NC 28210
+        </p>
+    </div>
+
+    <!-- Additional Images or Content -->
+    <div class="row">
+        <!-- You can add more images or content in a grid format here if needed -->
+    </div>
+    
+    <!-- Back to Home Link -->
+    <div class="text-center mt-5">
+        <a href="{{ url_for('home') }}" class="btn btn-primary mb-3">{{ _('Back to Home') }}</a>
+    </div>
+</div>
+{% endblock %}

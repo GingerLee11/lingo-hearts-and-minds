@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <!-- Title with orange color -->
+    <h1 class="text-center mb-5" style="color: orange;">{{ _('Charlemos Charlotte: Language Exchange Program') }}</h1>
+    
+    <!-- Main Image with reduced size -->
+    <div class="text-center mb-5">
+        <img src="{{ url_for('static', filename='images/cc.png') }}" alt="Charlemos Charlotte" class="img-fluid rounded" style="max-width: 70%;">
+    </div>
+
+    <!-- Main Content -->
+    <div class="mb-5">
+        <p>
+            {{ _('<strong>Charlemos Charlotte</strong> is a language exchange program with an immersive bilingual experience where participants practice Spanish through hands-on activities and engaging conversations. 
+            Similarly, native speakers learn from them! 
+            Participants are able to connect with others of their learning language through games, cooking, dancing, and other cultural experiences.')|safe }}
+        </p>
+        <p>
+            {{ _('There is a guest speaker at every session who shares their story of language learning, adversities they have faced, and their experiences in integrating into a new culture. Some guest speakers are fluent while others are just beginning to learn the language. ') }}
+        </p>
+        <p>
+            {{ _('All levels are welcome. ') }}
+        </p>
+        <p>
+            {{ _('Find Charlemos Charlotte events') }}
+            <a href="https://cmlibrary.bibliocommons.com/v2/events?q=Charlemos%20Charlotte" target="_blank" rel="noopener noreferrer">{{ _('here') }}</a>.
+        </p>
+        <p>
+            {{ _('For questions or assistance with registration, call 704-416-6400.') }}
+        </p>
+        <p>
+            {{ _('Location: 4429 South Boulevard, Charlotte, NC 28209') }}
+        </p>
+        <hr>
+        <h4>ESPAÑOL</h4>
+        <p>
+            <strong>Charlemos Charlotte</strong> es un programa de intercambio de idiomas con una experiencia bilingüe inmersiva donde los participantes practican inglés a través de actividades prácticas y conversaciones interesantes. Del mismo modo, ¡los hablantes nativos aprenden de ellos! Los participantes se conectan con otros de su idioma de aprendizaje a través de juegos, cocina, baile y otras experiencias culturales.
+        </p>
+        <p>
+            Hay un invitado en cada sesión que comparte su historia personal en el aprendizaje de idiomas, las adversidades que han enfrentado, y sus experiencias al integrarse a una nueva cultura. Algunos invitados hablan con fluidez, mientras que otros recién comienzan a aprender el idioma.
+        </p>
+        <p>
+            Todos los niveles son bienvenidos.
+        </p>
+        <p>
+            Encuentra los eventos de Charlemos Charlotte
+            <a href="https://cmlibrary.bibliocommons.com/v2/events?q=Charlemos%20Charlotte" target="_blank" rel="noopener noreferrer">aquí</a>.
+        </p>
+        <p>
+            Ubicación: 4429 South Boulevard, Charlotte, NC 28209
+        </p>
+    
+    </div>
+
+    <!-- Additional Images or Content -->
+    <div class="row">
+        <!-- You can add more images or content in a grid format here if needed -->
+    </div>
+    
+    <!-- Back to Home Link -->
+    <div class="text-center mt-5">
+        <a href="{{ url_for('home') }}" class="btn btn-primary mb-3">{{ _('Back to Home') }}</a>
+    </div>
+</div>
+{% endblock %}

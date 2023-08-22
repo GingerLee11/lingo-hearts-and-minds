@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-5" style="color: orange;">{{ _('Connections that Count') }}</h1>
+    
+    <!-- Main Image -->
+    <div class="text-center mb-5">
+        <img src="{{ url_for('static', filename='images/ctc.png') }}" alt="Connections that Count" class="img-fluid rounded" style="max-width: 70%;">
+    </div>
+
+    <!-- Main Content -->
+    <div class="mb-5">
+        <h4>English</h4>
+        <p>
+            {{ _("<strong>Connections that Count</strong> (or Conexiones que Cuentan) is a storytime provided in Spanish. The program focuses on children ages 0-5, but kids of any age are welcome. Participants engage with stories, songs, and activities in Spanish that support early literacy skill development and exposure to the language and culture. ")|safe }}
+        </p>
+        <p>
+            {{ _("This program is intended for both Spanish-speaking families and those who want to expose their children to a second language. ") }}
+        </p>
+        <p>
+            {{ _("Find Conexiones que Cuentan events") }}
+            <a href="https://cmlibrary.bibliocommons.com/v2/events?q=Connections%20that%20count&locations=SB" target="_blank" rel="noopener noreferrer">{{ _('here') }}</a>.
+        </p>
+        <p>
+            {{ _("Location: 4429 South Boulevard, Charlotte, NC 28209") }}
+        </p>
+        <hr>
+        <h4>ESPAÑOL</h4>
+        <p>
+            <strong>Conexiones que Cuentan</strong> (o Connections that Count) es una hora de cuentos proporcionada en español. El programa se enfoca en niños de 0 a 5 años de edad, pero niños de cualquier edad son bienvenidos. Los participantes escuchan historias, canciones y participan en actividades en español que apoyan el desarrollo de habilidades de alfabetización temprana y la exposición al idioma y la cultura.
+
+        </p>
+        <p>
+            Este programa está destinado a familias hispanohablantes y a aquellas que desean exponer a sus hijos a un segundo idioma.
+        </p>
+        <p>
+            Ubicación: 4429 South Boulevard, Charlotte, NC 28209
+        </p>
+    </div>
+    
+
+    <!-- Additional Images or Content -->
+    <div class="row">
+        <!-- You can add more images or content in a grid format here if needed -->
+    </div>
+    
+    <!-- Back to Home Link -->
+    <div class="text-center mt-5">
+        <a href="{{ url_for('home') }}" class="btn btn-primary mb-3">{{ _('Back to Home') }}</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-5" style="color: orange;">{{ _('Living Archives Charlotte') }}</h1>
+    
+    <!-- Main Image -->
+    <div class="text-center mb-5">
+        <img src="{{ url_for('static', filename='images/lac.png') }}" alt="Living Archives Charlotte" class="img-fluid rounded" style="max-width: 70%;">
+    </div>
+
+    <!-- Main Content -->
+    <div class="mb-5">
+        <h4>English</h4>
+        <p>
+            {{ _("The Living Archives is a three-year initiative (we're coming up on year three) to gather, preserve and share local histories—stories, creative pieces, written work, visual imagery, and memories—about the COVID-19 pandemic and its impact on Black, Hispanic, Asian, and Indigenous communities in Mecklenburg County whose stories are often untold in history. The project is a collaboration between the Charlotte Mecklenburg Library, Johnson C. Smith University, the Center for Documentary Studies at Duke University, and the Levine Museum of the New South. We plan to archive the stories, creative pieces, and other artifacts on our website and showcase them throughout museums and other sites in Charlotte.") }}
+        </p>
+        <p>
+            {{ _("Email Sarah Ghereghel at sgherghel@cmlibrary.org or call 704-416-0452 if you'd like to interview for this project in English.") }}
+        </p>
+        <p>
+            {{ _("Email Ana Robles at arobles@cmlibrary.org or call 704-416-6400 to interview for this project in Spanish.") }}
+        </p>
+        <p>
+            {{ _("Explore more of The Living Archives") }}
+            <a href="https://linktr.ee/livingarchivesclt" target="_blank" rel="noopener noreferrer">{{ _('here') }}</a>.
+        </p>
+        <hr>
+        <h4>ESPAÑOL</h4>
+        <p>
+            The Living Archives es una iniciativa de tres años (estamos llegando al tercer año) para recopilar, preservar y compartir historias locales (historias, piezas creativas, trabajos escritos, imágenes visuales y recuerdos) sobre la pandemia de COVID-19 y su impacto en las comunidades negras, hispanas, asiáticas e indígenas en el condado de Mecklenburg, cuyas historias a menudo no se cuentan en la historia. 
+            El proyecto es una colaboración entre la Biblioteca Charlotte Mecklenburg, la Universidad Johnson C. Smith, el Centro de Estudios Documentales de la Universidad de Duke y el Museo Levine del Nuevo Sur. 
+            Planeamos archivar las historias, piezas creativas y otros artefactos en nuestro sitio web y exhibirlos en museos y otros sitios en Charlotte.
+        </p>
+        <p>
+            Envía un correo electrónico a Ana Robles a arobles@cmlibrary.org o llama al 704-416-6400 si estás interesado en hacer una entrevista en español para este proyecto.
+        </p>
+        <p>
+            Envía un correo electrónico a Sarah Ghereghel a sgherghel@cmlibrary.org o llama al 704-416-0452 si deseas hacer una entrevista en inglés para este proyecto.
+        </p>
+        <p>
+            Explore más de The Living Archives
+            <a href="https://linktr.ee/livingarchivesclt" target="_blank" rel="noopener noreferrer">aquí</a>.
+        </p>
+    </div>
+    
+
+    <!-- Additional Images or Content -->
+    <div class="row">
+        <!-- You can add more images or content in a grid format here if needed -->
+    </div>
+    
+    <!-- Back to Home Link -->
+    <div class="text-center mt-5">
+        <a href="{{ url_for('home') }}" class="btn btn-primary mb-3">{{ _('Back to Home') }}</a>
+    </div>
+</div>
+{% endblock %}

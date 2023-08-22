@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <!-- Title with orange color -->
+    <h1 class="text-center mb-5" style="color: orange;">{{ _('Southend Spanish') }}</h1>
+    
+    <!-- Main Image with reduced size -->
+    <div class="text-center mb-5">
+        <img src="{{ url_for('static', filename='images/sesc.jpeg') }}" alt="Southend Spanish" class="img-fluid rounded" style="max-width: 70%;">
+    </div>
+
+    <!-- Main Content -->
+    <div class="mb-5">
+        <p>
+            <a href="https://www.meetup.com/southendspanishclub/" target="_blank" rel="noopener noreferrer">{{ _('South End Spanish') }}</a>
+            {{ _(' is a language group that gathers once a month (usually the third Thursday of the month) at a South End brewery to meet individuals who are learning the Spanish language, and at the same time, engage with native speakers of the language. The environment is always friendly and laid-back allowing others to easily connect and learn from each other. ')|safe }}
+        </p>
+        <p>
+            {{ _('This group is open to all levels of Spanish speakers ranging from beginner to fluent native speakers.') }}
+        </p>
+        <p>
+            {{ _('To receive notifications about our next event, you can create a Meetup account ') }}
+            <a href="https://www.meetup.com/" target="_blank" rel="noopener noreferrer">{{ _('here') }}</a>.
+            {{_(' Or follow us on Instagram ') }}
+            <a href="https://www.instagram.com/southendspanish/" target="_blank" rel="noopener noreferrer">{{ _('here') }}</a>.
+        </p>
+        <p>
+            {{ _('General Location: South End, Charlotte, NC. Login to our South End Spanish Meetup page to see the specific location for that month. ') }}
+        </p>
+        <hr>
+        <h4>ESPAÑOL</h4>
+        <p>
+            South End Spanish es un grupo de lenguaje que se reúne una vez al mes (generalmente el tercer jueves del mes) en una cervecería de South End para conocer a personas que están aprendiendo el idioma español, y al mismo tiempo, interactuar con hablantes nativos del idioma. El ambiente siempre es amigable y relajado, lo que permite que otros se conecten fácilmente y aprendan unos de otros.
+        </p>
+        <p>
+            Este grupo está abierto a todos los niveles de hispanohablantes, desde principiantes hasta hablantes nativos con fluidez.
+        </p>
+        <p>
+            Para recibir notificaciones sobre nuestro próximo evento, puedes crear una cuenta de Meetup aquí. O síguenos en Instagram aquí.
+        </p>
+        <p>
+            Ubicación general: South End, Charlotte, Carolina del Norte. Entra a nuestra página de South End Spanish Meetup para ver la ubicación específica de ese mes.
+        </p>
+    </div>
+
+    <!-- Additional Images or Content -->
+    <div class="row">
+        <!-- You can add more images or content in a grid format here if needed -->
+    </div>
+    
+    <!-- Back to Home Link -->
+    <div class="text-center mt-5">
+        <a href="{{ url_for('home') }}" class="btn btn-primary mb-3">{{ _('Back to Home') }}</a>
+    </div>
+</div>
+{% endblock %}

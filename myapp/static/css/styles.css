@@ -12,3 +12,31 @@
     font-size: 24px;  /* adjust as needed */
     font-weight: bold;
 }
+
+.project-card:hover .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Black overlay with 60% opacity */
+}
+
+.project-card .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0); /* Transparent by default */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.project-card .card-title,
+.project-card .card-text {
+    color: white; /* Text color */
+}
+
+.project-card .card-text {
+    visibility: hidden; /* Hide by default */
+}
+
+.project-card:hover .card-text {
+    visibility: visible; /* Show on hover */
+}
+
+/* New styles for the card images */
+.project-card .card-img {
+    height: 500px;
+    object-fit: cover;
+}
